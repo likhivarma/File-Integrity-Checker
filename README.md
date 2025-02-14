@@ -29,9 +29,11 @@ Monitor Changes: Periodically checks files against the baseline and reports any 
 Alert on Changes: Notifies the user when files are modified, added, or deleted.
 
 
-*EXAMPLE*:
-           No integrity violations detected.
-⚠ Integrity Violations Detected:
- Modified Files: ['C:/example/file1.txt']
- New Files: ['C:/example/newfile.txt']
- Deleted Files: ['C:/example/deleted.txt']
+OUTPUT:
+
+
+        No integrity violations detected.
+        ⚠ Integrity Violations Detected:
+        Modified Files: ['C:/example/file1.txt']
+        New Files: ['C:/example/newfile.txt']
+        Deleted Files: ['C:/example/deleted.txt']
